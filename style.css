@@ -1,0 +1,12 @@
+:root {
+    --dark: #252525;
+    --light: #f8f8f8;
+    --gray: #473b3b;
+    ;
+}
+
+.inicio {
+    display: flex;
+    background-color: var(--dark);
+    justify-content: end;
+}
