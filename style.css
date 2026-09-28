@@ -1,12 +1,86 @@
 :root {
     --dark: #252525;
     --light: #f8f8f8;
-    --gray: #473b3b;
-    ;
+    --gray: #93a0b3;
+    --off-white:#e7e5e5;
+
+    --title: 'Anton','Arial Narrow', sans-serif;
+    --text:'Work sans', Arial, sans serif;
 }
 
-.inicio {
+html {
+    scroll-behavior:smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--off-white) ;
+    font-family: var(--text);
+}
+
+.menu {
     display: flex;
     background-color: var(--dark);
     justify-content: end;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    padding: 10px 10px;
+}
+
+menu a {
+    color: var(--gray);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin: 0 15px;
+    padding: 7px 5px;
+    border-bottom: 3px solid transparent;
+}
+
+nav {
+    padding: 20px;
+}
+
+nav a {
+    align-items: center;
+}
+
+nav button {
+    padding: 5px;
+}
+
+.conteudo {
+    display: flex;
+    align-items:unsafe;
+    height: 93vh;
+    padding: 70px 100px;
+    background-position: center;
+}
+.conteudo-tit {
+    margin: 10px;
+}
+
+.conteudo-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0 100px;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: var(--text);
+    color: var(--gray);
 }
