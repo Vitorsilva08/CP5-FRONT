@@ -3,7 +3,6 @@
     --light: #f8f8f8;
     --gray: #93a0b3;
     --off-white: #e7e5e5;
-
     --title: 'Anton', 'Arial Narrow', sans-serif;
     --text: 'Work Sans', Arial, sans-serif;
 }
@@ -45,6 +44,7 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
+    padding: 0 20px;
 }
 
 .menu a {
@@ -83,20 +83,20 @@ nav button {
     background-color: #865630;
 }
 
-.conteudo {
+.hero {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 93vh;
-    padding: 70px 100px;
-    background-position: center;
+    padding: 70px 130px;
 }
 
-.conteudo-tit {
+.hero-tit {
     margin: 10px;
     max-width: 500px;
 }
 
-.conteudo-text {
+.hero-text {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -114,4 +114,15 @@ h2 {
 p {
     font-family: var(--text);
     color: var(--gray);
+}
+
+.hero-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-img img {
+    width: 550px;
+    height: 410px;
+    object-fit: cover;
 }
