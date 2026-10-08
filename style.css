@@ -1,8 +1,8 @@
 :root {
     --dark: #252525;
-    --light: #f8f8f8;
+    --light: #fffdfd;
     --gray: #93a0b3;
-    --off-white: #e7e5e5;
+    --off-white: #eceaea;
     --title: 'Anton', 'Arial Narrow', sans-serif;
     --text: 'Work Sans', Arial, sans-serif;
 }
@@ -134,19 +134,57 @@ p {
     background-color: var(--light);
 }
 
-#carouselExampleAutoplaying {
-    height: 100%;
-    width: 100%;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: brightness(0);
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #252525;
+}
+
+#carouselExampleIndicators {
+    height: 50%;
+    width: 50%;
+    justify-self: center;
+    padding: 100px;
 }
 
 .carousel-inner {
     justify-content: center;
-    padding: 20px;
+    padding: 0;
     width: 50% 50%; 
 }
 
-.carousel-item {
-    
+h3 {
+    color: #a66f3f;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: small;
+}
+
+.title-dep {
+    padding: 50px 0 0 0;
+    text-align: center ;
+    margin: 20px 0 0 0;
+}
+
+.faq {
+    margin: 100px;
+}
+
+.title-faq {
+    text-align: center;
+    padding: 40px;
+}
+
+.accordion-button {
+    background-color: var(--light);
+}
+
+.accordion {
+    width: 60%;
+    justify-self: center;
 }
 
 footer{
