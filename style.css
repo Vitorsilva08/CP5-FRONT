@@ -18,6 +18,9 @@ body {
     font-family: var(--text);
 }
 
+img {
+    object-fit: cover;
+}
 .menu {
     display: flex;
     background-color: var(--dark);
@@ -93,7 +96,7 @@ nav button {
 
 .hero-tit {
     margin: 10px;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 .hero-text {
@@ -101,7 +104,7 @@ nav button {
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
-    max-width: 500px;
+    max-width: 600px;
     margin: 0;
 }
 
@@ -125,4 +128,30 @@ p {
     width: 550px;
     height: 410px;
     object-fit: cover;
+}
+
+.depoimentos {
+    background-color: var(--light);
+}
+
+#carouselExampleAutoplaying {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-inner {
+    justify-content: center;
+    padding: 20px;
+    width: 50% 50%; 
+}
+
+.carousel-item {
+    
+}
+
+footer{
+    background-color: var(--dark) ;
+    color: var(--gray) ;
+    padding: 15px;
+    text-align: center;
 }
