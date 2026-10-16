@@ -172,3 +172,12 @@ blockquote {
     padding-left: 20px;
     border-left: 3px solid var(--secondary);
 }
+
+footer {
+    background-color:#280c4667 ;
+    color: var(--gray);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 45px;
+}
