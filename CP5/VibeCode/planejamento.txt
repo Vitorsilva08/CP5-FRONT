@@ -1,0 +1,16 @@
+Vitor Silva | rm571124
+
+Inicio: 
+- Referência no layout da aula de front-end de intro média 
+- Escolha de um personagem como tema
+- Criação do html e css 
+
+Hands On:
+- Implementação de section e div/class
+- Criação de variáveis no css
+- Trabalho no código
+- Consulta na IA sobre significado de tags do css (ex: diferenca entre justify-content, justify-items, justify-self)
+
+Fim:
+- Revisão do código
+- Criação do footer
